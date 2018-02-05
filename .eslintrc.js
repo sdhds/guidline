@@ -136,7 +136,7 @@ module.exports = {
 
 		// specify whether double or single quotes should be used in JSX attributes
 		// https://eslint.org/docs/rules/jsx-quotes
-		'jsx-quotes': ['off', 'prefer-double'],
+		'jsx-quotes': ['error', 'prefer-single'],
 
 		// enforces spacing between keys and values in object literal properties
 		'key-spacing': ['error', {
